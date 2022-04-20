@@ -12,9 +12,9 @@ Git credentials have the following format:
 
 - ``https://<user>:<password>@bitbucket.org``
 
-- ``https://<user>:<password>@github.com/2kg-coretech/*``
+- ``https://<user>:<password>@github.com``
 
-You can add a wildcard to your organization repos:
+You can add a wildcard to your organization repos, changing ``<organization>`` field:
 
 - ``https://<user>:<password>@github.com/<organization>/*``
 
@@ -34,5 +34,10 @@ Then run following command to generate an SSH key, filling needed variable value
 
 **Fore more tags:** https://www.ssh.com/academy/ssh/keygen#command-and-option-summary
 
-Finally, your key will be available in ``C:\Users\<username>\.ssh``.
+Your key will be available in ``C:\Users\<username>\.ssh``.
 - ``<username>`` - your Windows username.
+
+Then you may copy and paste your SSH key into [Github](https://github.com/settings/keys),
+[Bitbucket](https://bitbucket.org/account/settings/ssh-keys/), or wtv, settings.
+
+## 
