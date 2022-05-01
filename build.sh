@@ -1,1 +1,1 @@
-env GOOS=linux GOARCH=amd64 go build -o cmd/hello ./cmd/hello/main.go
+env GOOS=linux GOARCH=amd64 go build -o cmd/hello/hello-world ./cmd/hello/main.go
