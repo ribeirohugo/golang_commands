@@ -17,4 +17,8 @@ Generates the binary file for ``hello`` cmd method.
 - ``<architecture>`` - could be ``arm``, ``386`` for x86 and ``amd64`` for x64.
 
 ## WSL Linter
-Run ``linter-wsl.sh`` command, but update ``WINDOWS_PATH`` variable before.
+Run the linter script to generate a file with the output of ``golangci`` results, but update ``WINDOWS_PATH`` variable
+before. Use:
+
+* ``linter-wsl/linter.sh`` for Ubuntu 20 or older
+* ``linter-wsl/linter-22.sh`` for Ubuntu 22
