@@ -20,7 +20,7 @@ Generates the binary file for ``hello`` cmd method.
 - ``<architecture>`` - could be ``arm``, ``386`` for x86 and ``amd64`` for x64.
 
 ## WSL Linter
-Run the ``./linter.sh`` to generate the lint checkup output file, based on ``.golangci.yaml`` configs.
+Run the ``linter.sh`` to generate the lint checkup output file, based on ``.golangci.yaml`` configs.
 
 Before to run, update the following variables:
 * ``PROJECT_NAME`` for Git project name.
