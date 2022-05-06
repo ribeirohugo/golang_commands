@@ -11,4 +11,4 @@ cd /usr/local
 sudo curl -OL https://go.dev/dl/go1.18.linux-386.tar.gz
 
 # Uncompress files
-tar -C /usr/local -xvf go1.18.linux-386.tar.gz
+sudo tar -C /usr/local -xvf go1.18.linux-386.tar.gz
