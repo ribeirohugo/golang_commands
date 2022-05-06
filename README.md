@@ -6,7 +6,10 @@ This repo holds important Go commands, scripts and Go issue solving documentatio
 🔗 [Git Windows Authentication](git_windows_auth.md)
 
 ## Install Go in WSL
-Run ``install.sh`` command.
+Run the appropriate ``install`` script to install Go in your machine:
+
+* ``install/go.sh`` for Ubuntu WSL Go installation.
+* ``install/go_x86.sh`` for Ubuntu WSL x86 Go installation.
 
 ## Build 
 Generates the binary file for ``hello`` cmd method.
@@ -17,8 +20,8 @@ Generates the binary file for ``hello`` cmd method.
 - ``<architecture>`` - could be ``arm``, ``386`` for x86 and ``amd64`` for x64.
 
 ## WSL Linter
-Run the linter script to generate a file with the output of ``golangci`` results, but update ``WINDOWS_PATH`` variable
-before. Use:
+Run the ``linter.sh`` to generate the lint checkup output file, based on ``.golangci.yaml`` configs.
 
-* ``linter-wsl/linter.sh`` for Ubuntu 20 or older
-* ``linter-wsl/linter-22.sh`` for Ubuntu 22
+Before to run, update the following variables:
+* ``PROJECT_NAME`` for Git project name.
+* ``WINDOWS_PATH`` with the project path in your Windows machine.
