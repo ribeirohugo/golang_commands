@@ -1,10 +1,13 @@
 #!/bin/sh
 
+# Git project name
+export PROJECT_NAME=golang_commands
+
 # Windows user name
 export WINDOWS_USER=username
 
 # Windows project path
-export WINDOWS_PATH=Users/$WINDOWS_USER/Documents/Projects/golang_commands
+export WINDOWS_PATH=Users/$WINDOWS_USER/Documents/Projects/$PROJECT_NAME
 
 # Mode to project path
 cd /mnt/c/$WINDOWS_PATH || exit
@@ -13,7 +16,7 @@ cd /mnt/c/$WINDOWS_PATH || exit
 export GOROOT=/usr/local/go
 export GOPATH=/mnt/c/Users/$WINDOWS_USER/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
-export GOPRIVATE=github.com/ribeirohugo/golang_commands
+export GOPRIVATE=github.com/ribeirohugo/$PROJECT_NAME
 export GOPROXY=https://proxy.golang.org,direct
 export GO111MODULE=on
 
