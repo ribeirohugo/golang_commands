@@ -1,7 +1,5 @@
 #!/bin/sh
 
-## Valid to Ubuntu 20, 18
-
 # Windows user name
 export WINDOWS_USER=username
 
