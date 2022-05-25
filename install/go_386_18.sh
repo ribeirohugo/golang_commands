@@ -8,10 +8,10 @@ sudo apt-get --yes install go
 cd /usr/local
 
 # Download Go installation
-sudo curl -OL https://go.dev/dl/go1.18.linux-amd64.tar.gz
+sudo curl -OL https://go.dev/dl/go1.18.linux-386.tar.gz
 
 # Uncompress files
-sudo tar -C /usr/local -xvf go1.18.linux-amd64.tar.gz
+sudo tar -C /usr/local -xvf go1.18.linux-386.tar.gz
 
 # Remove unnecessary file
-sudo rm go1.18.linux-amd64.tar.gz
+sudo rm go1.18.linux-386.tar.gz
