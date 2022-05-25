@@ -8,9 +8,6 @@ This repo holds important Go commands, scripts and Go issue solving documentatio
 ## Install Go in WSL
 Run the appropriate ``install`` script to install Go in your machine:
 
-## Install Go in WSL
-Run the appropriate ``install`` script to install Go in your machine:
-
 * [install/go.sh](install/go.sh) for Ubuntu x64 Go 1.18 installation.
 * [install/go_386_18.sh](install/go_386_18.sh) for Linux x86 Go 1.18 installation.
 * [install/go_amd64_17.sh](install/go_amd64_17.sh) for Linux x64 Go 1.17 installation.
