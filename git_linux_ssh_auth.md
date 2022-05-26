@@ -1,6 +1,6 @@
 # Git Linux SSH Authentication
 
-**Git Linux Authentication** documentation holds solutions to common questions and issues when trying to authenticate
+**Git Linux SSH Authentication** documentation holds solutions to common questions and issues when trying to authenticate
 to Git platform, including SSH issues. This is useful when trying to fetch Go dependencies from private repos.
 
 ## Generate SSH keys
