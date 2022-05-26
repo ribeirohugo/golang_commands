@@ -39,5 +39,3 @@ Your key will be available in ``C:\Users\<username>\.ssh``.
 
 Then you may copy and paste your SSH key into [Github](https://github.com/settings/keys),
 [Bitbucket](https://bitbucket.org/account/settings/ssh-keys/), or wtv, settings.
-
-## 
